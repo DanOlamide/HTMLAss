@@ -1,0 +1,78 @@
+body {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  background-color: #1b1b32;
+  color: #f5f6f7;
+  font-family: Tahoma;
+  font-size: 16px;
+}
+select {
+  width: 100%;
+  color: #f5f6f7;
+  min-height: 2.5em;
+  background-color: #0a0a23;
+  border: 1px solid #0a0a23;
+}
+fieldset {
+  border: none;
+  padding: 1rem 0;
+  border-bottom: 3px solid #3b3b4f;
+}
+
+p, h1 {
+  margin: 1em auto;
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+
+label {
+    display: block;
+    align-items: center;
+    font-size: 1.2rem;
+    margin: 0.5rem 0auto;
+    color: #f5f6f7;
+    padding: 0.25rem;
+}
+
+form {
+  width: 600vw;
+  max-width: 500px;
+  min-width: 300px;
+  margin: 0 auto;
+  padding-bottom: 2em;
+}
+
+input{
+  margin: 1px;
+  width: 100%;
+  min-height: 2.5em;
+}
+
+.inline {
+  width: unset;
+  margin: 0 0.5em 0 0;
+  vertical-align: middle;
+}
+
+input, textarea {
+  background-color: #0a0a23;
+  border: 1px solid #0a0a23;
+  color: #ffffff;
+}
+
+.input-checkbox {
+  width: unset;
+  margin: 0 0.5em 0 0;
+  vertical-align: middle;
+}
+
+fieldset:last-of-type {
+  border-bottom: none;
+}
+
+textarea {
+  margin: 1px;
+  width: 100%;
+  min-height: 5em;
+}
